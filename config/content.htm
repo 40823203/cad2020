@@ -307,45 +307,5 @@
 </table>
 <h2>W4-6</h2>
 <h3>繪圖過程</h3>
-<p><span>零件繪製(小組、個人)</span></p>
-<script type="text/javascript">
-function posObj(sheet, id, row, col, x, y) {
-  var rtl = false;
-  var sheetElement = document.getElementById(sheet);
-  if (!sheetElement) {
-    sheetElement = document.getElementById(sheet + '-grid-container');
-  }
-  if (sheetElement) {
-    rtl = sheetElement.getAttribute('dir') == 'rtl';
-  }
-  var r = document.getElementById(sheet+'R'+row);
-  var c = document.getElementById(sheet+'C'+col);
-  if (r && c) {
-    var objElement = document.getElementById(id);
-    var s = objElement.style;
-    var t = y;
-    while (r && r != sheetElement) {
-      t += r.offsetTop;
-      r = r.offsetParent;
-    }
-    var offsetX = x;
-    while (c && c != sheetElement) {
-      offsetX += c.offsetLeft;
-      c = c.offsetParent;
-    }
-    if (rtl) {
-      offsetX -= objElement.offsetWidth;
-    }
-    s.left = offsetX + 'px';
-    s.top = t + 'px';
-    s.display = 'block';
-    s.border = '1px solid #000000';
-  }
-};
-function posObjs() {
-};
-posObjs();
-</script>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/LqlAmL1qEqQ" width="560"></iframe></p>
-<p><img alt="" height="420" src="/images/6.png" width="562"/></p>
-<p><img alt="" height="420" src="/images/666.png" width="562"/></p></div>
+<p></p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/LqlAmL1qEqQ" width="560"></iframe></p></div>
